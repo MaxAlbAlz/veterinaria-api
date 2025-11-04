@@ -1,16 +1,10 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 import { MascotasModule } from './mascotas/mascotas.module';
-
-import { TratamientosModule } from './tratamientos/tratamientos.module';
+import { PropietariosModule } from './propietarios/propietarios.module';
 import { TurnosModule } from './turnos/turnos.module';
-import { PropietariosController } from './propietarios/propietarios.controller';
-import { PropietariosService } from './propietarios/propietarios.service';
+import { TratamientosModule } from './tratamientos/tratamientos.module';
 
 @Module({
-  imports: [MascotasModule, TurnosModule, TratamientosModule],
-  controllers: [AppController, PropietariosController],
-  providers: [AppService, PropietariosService],
+  imports: [MascotasModule, PropietariosModule, TurnosModule, TratamientosModule],
 })
 export class AppModule {}
