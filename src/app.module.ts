@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { MascotasModule } from './mascotas/mascotas.module';
-import { PropietariosService } from './propietarios/propietarios.service';
+
 import { TratamientosModule } from './tratamientos/tratamientos.module';
 import { TurnosModule } from './turnos/turnos.module';
 import { PropietariosController } from './propietarios/propietarios.controller';
