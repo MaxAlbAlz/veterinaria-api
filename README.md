@@ -77,7 +77,7 @@ El sistema permite:
 
 **Maximiliano Alberto Alzù**  
 Estudiante de la carrera de Programación  
-Trabajo final de la materia **EDI (Entornos de Desarrollo e Integración)**  
+Trabajo final de la materia **EDI (Espacio de definicion institucional)**  
 Año 2025
 
 ---
